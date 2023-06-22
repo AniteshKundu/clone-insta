@@ -8,7 +8,7 @@ const ReqUserPostPart = () => {
     const [activeTab, setActiveTab] = useState()
     const tabs=[
         {
-        tab:"Posts",
+        tab:"Post",
         icon:<AiOutlineTable></AiOutlineTable>,
         activeTab:""
         },
@@ -38,7 +38,7 @@ const ReqUserPostPart = () => {
             </div>
             <div>
                 <div className='flex flex-wrap'>
-                    {[1,,1,,1,1,1,1].map((item)=><ReqUserPostCard/>)}
+                    {[1,1,1,1,1,1].map((item)=><ReqUserPostCard/>)}
                 </div>
             </div>
             
